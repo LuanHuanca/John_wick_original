@@ -1,0 +1,13 @@
+.movie-container{
+    position: relative;
+    width: 96px;
+    height: 121px;
+    border-radius: 17px;
+    margin: 15px;
+}
+
+.movie-container img{
+    width: 96px;
+    height: 100%;
+    border-radius: 15px;
+}

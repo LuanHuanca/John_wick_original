@@ -1,5 +1,18 @@
 .seccion-container{
     width: 100%;
-    height: 121px;
-    margin: 0 0 0 12px;
+    margin: 10px; 
 }
+.seccion-container span{
+    font-family: 'Istok Web';
+    font-size: 14px;
+    line-height: 20px;
+    color: #6A536A;
+}
+.seccion-slider{
+    width: 95%;
+    height: 170px;
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-between;
+}
+

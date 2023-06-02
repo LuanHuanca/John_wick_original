@@ -1,0 +1,25 @@
+.search-container{
+    height: 47px;
+    background: #FFFCF3;
+    position: sticky;
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-container input{  
+    text-align: center;
+    width: 80%;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-size: 12px;
+    border: #FFFCF3 ;
+    /* El outline es para desaparecer el borde al seleccionar el input  */
+    outline: none;
+    background-color: transparent;  
+    color: #6A536A;
+}
+

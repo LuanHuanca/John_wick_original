@@ -1,18 +1,18 @@
 import React from 'react'
 import './SeccionMovie.css'
-const SeccionMovie = ({movies, title}) => {
-  
-  return (
-    <div className="seccion">
-      <span>{title}</span>
-      <div className='seccion-container'>
+import MovieCard from './MovieCard'
 
+
+const SeccionMovie = ({movies, title}) => {
+  return (
+    <div className="seccion-container">
+      <span>{title}</span>
+      <div className='seccion-slider'>
         {
           movies.map((movie) => {
-            <img src={movie.url} alt="" />
+            return <MovieCard movie={movie} key= {movie.id}/>
           })
         }
-        
       </div>
     </div>
   )
